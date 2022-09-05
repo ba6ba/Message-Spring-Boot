@@ -1,0 +1,21 @@
+2022-08-18 21:22:53 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE IF NOT EXISTS messages ( id VARCHAR(60) DEFAULT RANDOM_UUID() PRIMARY KEY, message VARCHAR NOT NULL, [*])"; expected "identifier"; SQL statement:
+CREATE TABLE IF NOT EXISTS messages ( id VARCHAR(60) DEFAULT RANDOM_UUID() PRIMARY KEY, message VARCHAR NOT NULL, ) [42001-214]
+2022-08-18 21:22:53 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE IF NOT EXISTS messages ( id VARCHAR(60) DEFAULT RANDOM_UUID() PRIMARY KEY, message VARCHAR NOT NULL, [*])"; expected "identifier"; SQL statement:
+CREATE TABLE IF NOT EXISTS messages ( id VARCHAR(60) DEFAULT RANDOM_UUID() PRIMARY KEY, message VARCHAR NOT NULL, ) [42001-214]
+2022-08-18 21:23:26 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE IF NOT EXISTS messages ( id VARCHAR(60) DEFAULT RANDOM_UUID() PRIMARY KEY, message VARCHAR NOT NULL, [*])"; expected "identifier"; SQL statement:
+CREATE TABLE IF NOT EXISTS messages ( id VARCHAR(60) DEFAULT RANDOM_UUID() PRIMARY KEY, message VARCHAR NOT NULL, ) [42001-214]
+2022-08-18 21:24:37 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE IF NOT EXISTS messages ( id VARCHAR(60) DEFAULT RANDOM_UUID() PRIMARY KEY, message VARCHAR NOT NULL, [*])"; expected "identifier"; SQL statement:
+CREATE TABLE IF NOT EXISTS messages ( id VARCHAR(60) DEFAULT RANDOM_UUID() PRIMARY KEY, message VARCHAR NOT NULL, ) [42001-214]
+2022-08-18 21:25:36 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE IF NOT EXISTS messages ( id VARCHAR(60) DEFAULT RANDOM_UUID() PRIMARY KEY, message VARCHAR NOT NULL, [*])"; expected "identifier"; SQL statement:
+CREATE TABLE IF NOT EXISTS messages ( id VARCHAR(60) DEFAULT RANDOM_UUID() PRIMARY KEY, message VARCHAR NOT NULL, ) [42001-214]
+2022-08-18 21:27:02 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "messages" not found (candidates are: "MESSAGES"); SQL statement:
+INSERT INTO "messages" ("TEXT") VALUES (?) [42103-214]
+2022-08-18 21:30:35 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "messages" not found (candidates are: "MESSAGES"); SQL statement:
+UPDATE "messages" SET "TEXT" = ? WHERE "messages"."ID" = ? [42103-214]
